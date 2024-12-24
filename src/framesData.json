@@ -1,0 +1,29 @@
+{
+    "frames": [
+      {
+        "heading": "Tailored for college life",
+        "paragraph": "Our solution is uniquely designed for college students, providing practical and student-focused functionalities that cater to their daily needs and challenges.",
+        "leftArrow": "/images/left-arrow.svg",
+        "rightArrow": "/images/right-arrow.svg"
+      },
+      {
+        "heading": "Reliable Tracking",
+        "paragraph": "Our GPS technology ensures precise location tracking for accurate bus location updates. Continuous tracking ensures reliable updates even in areas with network issues.",
+        "leftArrow": "/images/left-arrow.svg",
+        "rightArrow": "/images/right-arrow.svg"
+      },
+      {
+        "heading": "Real time precision",
+        "paragraph": "Our system offers real-time precision, ensuring students can efficiently plan their journeys with accurate and up-to-date bus locations, reducing waiting times.",
+        "leftArrow": "/images/left-arrow.svg",
+        "rightArrow": "/images/right-arrow.svg"
+      },
+      {
+        "heading": "Secure data handling",
+        "paragraph": "Our encryption technology safeguards student location data, ensuring security and privacy. This ensures peace of mind for users, knowing their information is protected.",
+        "leftArrow": "/images/left-arrow.svg",
+        "rightArrow": "/images/right-arrow.svg"
+      }
+    ]
+  }
+  

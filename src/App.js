@@ -50,46 +50,46 @@ function App() {
     <div style={{ minHeight: '100vh' }}>
       {/* Top Navbar with white background for logos */}
       <div style={{ display: "flex", justifyContent: "space-between", padding: "10px", backgroundColor: "white" }}>
-        <img src={busBarImage} alt="Left Logo" style={{ height: "50px" }} />
-        <img src={scrollBarImage} alt="Right Logo" style={{ height: "50px" }} />
+        <img src={busBarImage} alt="Left Logo" style={{ height: "50px", maxWidth: '100%' }} />
+        <img src={scrollBarImage} alt="Right Logo" style={{ height: "50px", maxWidth: '100%' }} />
       </div>
 
       {/* Home Center Image */}
       <div>
-        <img 
-          src={homeCenterImage} 
-          alt="Home Center" 
-          style={{ width: '100%', height: 'auto' }} 
+        <img
+          src={homeCenterImage}
+          alt="Home Center"
+          style={{ width: '100%', height: 'auto' }}
         />
       </div>
 
       {/* Centered "Where Is My Bus" Image */}
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-        <img 
-          src={whereIsMyBusImage} 
-          alt="Where Is My Bus" 
-          style={{ maxWidth: '80%', height: 'auto' }} 
+        <img
+          src={whereIsMyBusImage}
+          alt="Where Is My Bus"
+          style={{ maxWidth: '80%', height: 'auto' }}
         />
       </div>
 
       {/* Button */}
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-        <button 
-          style={{ 
-            display: 'flex', 
-            alignItems: 'center', 
-            backgroundColor: '#FCD660', 
-            border: '1px solid black', 
-            borderRadius: '5px', 
-            padding: '10px 20px', 
-            fontSize: '16px', 
-            cursor: 'pointer' 
+        <button
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            backgroundColor: '#FCD660',
+            border: '1px solid black',
+            borderRadius: '5px',
+            padding: '10px 20px',
+            fontSize: '16px',
+            cursor: 'pointer'
           }}
         >
-          <img 
-            src={locationIcon} 
-            alt="Location Icon" 
-            style={{ height: '20px', marginRight: '10px' }} 
+          <img
+            src={locationIcon}
+            alt="Location Icon"
+            style={{ height: '20px', marginRight: '10px' }}
           />
           Track Buses
         </button>
@@ -97,17 +97,17 @@ function App() {
 
       {/* "Know More" Section */}
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '10px' }}>
-        <img 
-          src={downArrowIcon} 
-          alt="Down Arrow Icon" 
-          style={{ height: '12px', marginRight: '5px' }} 
+        <img
+          src={downArrowIcon}
+          alt="Down Arrow Icon"
+          style={{ height: '12px', marginRight: '5px' }}
         />
-        <span 
-          style={{ 
-            fontSize: '16px', 
-            textDecoration: 'underline', 
-            cursor: 'pointer', 
-            color: 'black' 
+        <span
+          style={{
+            fontSize: '16px',
+            textDecoration: 'underline',
+            cursor: 'pointer',
+            color: 'black'
           }}
         >
           Know More
@@ -117,91 +117,89 @@ function App() {
       {/* Yellow Background Section */}
       <div style={{ backgroundColor: '#FFEF9D', padding: '20px 10px', marginTop: '20px', textAlign: 'center' }}>
         {/* Welcome Image */}
-        <img 
-          src={welcomeImage} 
-          alt="Welcome to Where is My Bus" 
-          style={{ maxWidth: '100%', height: 'auto', margin: '20px 0' }} 
+        <img
+          src={welcomeImage}
+          alt="Welcome to Where is My Bus"
+          style={{ maxWidth: '100%', height: 'auto', margin: '20px 0' }}
         />
-        
+
         {/* Paragraph */}
         <p style={{ fontSize: '18px', lineHeight: '1.6', color: '#333', margin: '20px auto', maxWidth: '600px' }}>
           Your ultimate companion for hassle-free college commutes! Designed with students in mind, our progressive web application provides real-time tracking for college buses, ensuring you never miss a ride. Join us and experience the convenience of knowing exactly where your bus is, every step of the way!
         </p>
-        
+
         {/* Center Bus Image */}
-        <img 
-          src={centerBusImage} 
-          alt="Center Bus" 
-          style={{ maxWidth: '100%', height: 'auto', margin: '20px 0' }} 
+        <img
+          src={centerBusImage}
+          alt="Center Bus"
+          style={{ maxWidth: '100%', height: 'auto', margin: '20px 0' }}
         />
       </div>
 
       {/* Centered "Our Features" Image */}
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: '20px' }}>
-        <img 
-          src={ourFeaturesImage} 
-          alt="Our Features" 
-          style={{ maxWidth: '100%', height: 'auto' }} 
+        <img
+          src={ourFeaturesImage}
+          alt="Our Features"
+          style={{ maxWidth: '100%', height: 'auto' }}
         />
       </div>
 
       {/* Dynamic Frames Section */}
       <div style={{ textAlign: "center", padding: "20px" }}>
         {/* Render the current frame */}
-        <div style={{ 
-          display: 'flex', 
-          alignItems: 'center', 
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
           justifyContent: 'center',
-          flexDirection: 'column', 
-          padding: "20px", 
-          borderRadius: "8px" 
+          flexDirection: 'column',
+          padding: "20px",
+          borderRadius: "8px"
         }}>
-          <div 
-            style={{ 
-              display: 'flex', 
-              alignItems: 'center', 
-              justifyContent: 'center',
-              flexDirection: 'column',
-            }}
-          >
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            flexDirection: 'column',
+          }}>
             <div style={{ position: 'relative' }}>
               {/* Frame image */}
-              <img 
-                src={images[currentFrame]} 
-                alt="Frame Image" 
-                style={{ width: "50%", height: "auto", marginBottom: '10px' }} 
+              <img
+                src={images[currentFrame]}
+                alt="Frame Image"
+                style={{ width: "50%", height: "auto", marginBottom: '10px' }}
               />
               {/* Left and Right Arrow Buttons */}
-              <button 
-                style={{ 
-                  position: 'absolute', 
-                  left: '-30px', 
-                  top: '50%', 
-                  transform: 'translateY(-50%)', 
-                  background: 'none', 
+              <button
+                style={{
+                  position: 'absolute',
+                  left: '-30px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  background: 'none',
                   border: 'none',
                   cursor: 'pointer'
                 }}
                 onClick={goToPreviousFrame}
               >
                 <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M15 19l-7-7 7-7" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M15 19l-7-7 7-7" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
-              <button 
-                style={{ 
-                  position: 'absolute', 
-                  right: '-30px', 
-                  top: '50%', 
-                  transform: 'translateY(-50%)', 
-                  background: 'none', 
+              <button
+                style={{
+                  position: 'absolute',
+                  right: '-30px',
+                  top: '50%',
+                  transform: 'translateY(-50%)',
+                  background: 'none',
                   border: 'none',
                   cursor: 'pointer'
                 }}
                 onClick={goToNextFrame}
               >
                 <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M9 5l7 7-7 7" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M9 5l7 7-7 7" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </button>
             </div>
@@ -212,7 +210,7 @@ function App() {
       </div>
 
       {/* Black Box for About Us, Contact, and Follow Us */}
-      <div style={{ backgroundColor: '	#222222', padding: '30px', marginTop: '30px', border: 'none' }}>
+      <div style={{ backgroundColor: '#222222', padding: '30px', marginTop: '30px', border: 'none' }}>
         <section className="about-us" style={{ textAlign: 'center', marginBottom: '20px' }}>
           <h2 style={{ color: 'yellow' }}>About Us</h2>
           <p style={{ color: 'white' }}>Our mission is to provide students with the tools they need to travel efficiently and stress-free. Gone are the days of waiting at the bus stop unsure of when your ride will arrive. With "Where is my bus?", you'll have real-time tracking information at your fingertips, ensuring you never miss a bus again.</p>

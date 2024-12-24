@@ -1,2 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
 
+/* Default styles for larger screens (laptop, desktop) */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+button {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Styles */
+
+/* Mobile and small screens */
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar img {
+    height: 40px;
+    max-width: 100%;
+  }
+
+  /* Welcome image and text */
+  .welcome-image {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .welcome-text {
+    font-size: 16px;
+  }
+
+  /* Button adjustments */
+  button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  /* Social media icons */
+  .social-media-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media-icon {
+    margin: 10px 0;
+  }
+
+  /* Frames section */
+  .frame-container {
+    padding: 15px;
+  }
+
+  /* Black Box section */
+  .about-us, .contact, .follow-us {
+    margin-bottom: 20px;
+  }
+
+  /* Make the images smaller in the frames section */
+  .frame-image {
+    width: 70%;
+    height: auto;
+  }
+
+  /* Adjusting frame container and text */
+  .frame-container h2 {
+    font-size: 18px;
+  }
+
+  /* Centered "Where Is My Bus" Image */
+  .home-center-image {
+    width: 80%;
+  }
+
+  /* "Track Buses" button styling */
+  button {
+    padding: 10px 18px;
+  }
+}
+
+/* Tablet Screens (portrait and small tablets) */
+@media (max-width: 1024px) {
+  .frame-container {
+    padding: 15px;
+  }
+
+  /* Centered text in frames */
+  .frame-container h2 {
+    font-size: 20px;
+  }
+
+  /* Center images */
+  .home-center-image {
+    width: 80%;
+  }
+
+  /* Adjusting frames images */
+  .frame-image {
+    width: 75%;
+    height: auto;
+  }
+
+  /* Button adjustments */
+  button {
+    padding: 12px 20px;
+  }
+
+  .welcome-image {
+    width: 85%;
+  }
+}
+
+/* Large screens (desktop, laptops) */
+@media (min-width: 1025px) {
+  /* Ensuring consistent padding and margins for larger screens */
+  .navbar img {
+    height: 50px;
+  }
+
+  .home-center-image {
+    width: 70%;
+  }
+
+  .welcome-image {
+    width: 100%;
+  }
+
+  .frame-container {
+    padding: 20px;
+  }
+
+  /* Image size for the frames */
+  .frame-image {
+    width: 50%;
+  }
+
+  /* Adjusting heading font sizes */
+  .frame-container h2 {
+    font-size: 24px;
+  }
+
+  /* Keeping button size consistent */
+  button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}

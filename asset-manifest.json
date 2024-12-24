@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/my-project/static/css/main.facf2cb2.css",
+    "main.js": "/my-project/static/js/main.248454b6.js",
+    "static/js/488.cfc9bd55.chunk.js": "/my-project/static/js/488.cfc9bd55.chunk.js",
+    "static/media/home-center.svg": "/my-project/static/media/home-center.b6e1c59ddeb93d42e26266dbdbe85da7.svg",
+    "static/media/globe-location.svg": "/my-project/static/media/globe-location.64d5bd0a8dc4ea54229d9eab3fd61b14.svg",
+    "static/media/busy-female-student.svg": "/my-project/static/media/busy-female-student.a7130b07de8c817087140e65ad355850.svg",
+    "static/media/alarm-clock.svg": "/my-project/static/media/alarm-clock.783a2cb7443f9f965c2b81814e602307.svg",
+    "static/media/secure-document.svg": "/my-project/static/media/secure-document.ceead5e6c4ca6d7ba50db941f85d8e69.svg",
+    "static/media/Welcome-to-Where-is-my-bus.svg": "/my-project/static/media/Welcome-to-Where-is-my-bus.422fa003097f7075c0b71e1f115852e0.svg",
+    "static/media/where-is-my-bus.svg": "/my-project/static/media/where-is-my-bus.8401fa30a1bada2e95025ac359b17ccd.svg",
+    "static/media/Our-Features.svg": "/my-project/static/media/Our-Features.a38e3f3e98586de16b414dfab3edf7e0.svg",
+    "static/media/bus-bar.svg": "/my-project/static/media/bus-bar.906428e2d9c06244e31fadf11f28f3bb.svg",
+    "static/media/center-bus.svg": "/my-project/static/media/center-bus.abdace09ae0b8fbdec7f5178d8560fc1.svg",
+    "static/media/youtube.svg": "/my-project/static/media/youtube.d911c3430dadc26f26f8c0d7850edace.svg",
+    "static/media/down-arrow-icon.svg": "/my-project/static/media/down-arrow-icon.0d8dedbce8f49cc633a0b32bf643e769.svg",
+    "static/media/scroll-bar.svg": "/my-project/static/media/scroll-bar.4bb96926e61db234c2b58c4b635b2500.svg",
+    "static/media/insta.svg": "/my-project/static/media/insta.c270ea1ee707615f5b31659bd76b1835.svg",
+    "index.html": "/my-project/index.html",
+    "static/media/location-icon.svg": "/my-project/static/media/location-icon.b698847775bba8959aa78a5c56be5495.svg",
+    "static/media/twitter.svg": "/my-project/static/media/twitter.774c9e8dbdce898b6a6c80a02f724bfe.svg",
+    "main.facf2cb2.css.map": "/my-project/static/css/main.facf2cb2.css.map",
+    "main.248454b6.js.map": "/my-project/static/js/main.248454b6.js.map",
+    "488.cfc9bd55.chunk.js.map": "/my-project/static/js/488.cfc9bd55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.facf2cb2.css",
+    "static/js/main.248454b6.js"
+  ]
+}
